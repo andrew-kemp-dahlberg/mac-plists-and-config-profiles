@@ -11,17 +11,17 @@
 <key>OIDCDiscoveryURL</key>
 <string>https://unison-admin.okta.com/.well-known/openid-configuration</string>
 <key>OIDCClientID</key>
-<string>0oayge4vcvLWAc8e72p7</string>
+<string>redacted</string>
 <key>OIDCROPGID</key>
-<string>0oaygfn4wcFA6wDNR2p7</string>
+<string>redacted</string>
 <key>OIDCTenant</key>
-<string>https://unison.okta.com/oauth2/default</string>
+<string>redacted</string>
 <key>OIDCAdminAttribute</key>
 <string>groups</string>
 <key>OIDCAdmin</key>
 <array>
 <string>IT</string>
-<string>app-jamfConnect-Admin</string>
+<string>app.jamfConnect.Admin</string>
 </array>
 <key>LocalFallback</key>
 <false/>
@@ -37,13 +37,8 @@
 	<true/>
 	<key>MigrateUsersHide</key>
 	<array>
-	<string>unisonmanage</string>
-	<string>unison</string>
+	<string>redacted</string>
 	</array>
-<key>BackgroundImage</key>
-<string>/usr/local/jamfconnect/background.jpg</string>
-<key>LoginLogo</key>
-	<string>/usr/local/jamfconnect/logo.png</string>
 <key>AllowNetworkSelection</key>
 	<true/>
 <key>OIDCSecondaryAccess</key>
