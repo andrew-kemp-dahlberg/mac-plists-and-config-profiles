@@ -5,3 +5,10 @@ com.apple.applicationaccess defers major OS updates for 14 days so we have time 
 com.tinyspeck.slackmacgap sets default org, sets environment to corporate as opposed to gove and turns off auto updates so updates can be managed. This is critical for users that are not admin as slack prompts for credentials on updates
 
 com.apple.notificationsettings turns off notifications for users when mdm adds login items
+
+Both Jamf Connect plists are settings I have found useful when deploying jamf connect with Okta Identity Engine
+
+Okta profiles are for settings I've found helpful when deploying fastpass. I did not include management attestation profiles as they are easiest to roll out through the MDM GUI. 
+
+
+
