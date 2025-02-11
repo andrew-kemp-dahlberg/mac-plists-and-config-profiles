@@ -35,7 +35,7 @@
   <key>TenantID</key>
   <string>redacted</string>
 <key>ResetPasswordURL</key>
-<string>https://unison.okta.com/signin/change-password</string>
+<string>redacted</string>
 <key>Scopes</key>
 <string>openid+profile+offline_access</string>
 	</dict>
