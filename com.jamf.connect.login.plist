@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>AllowNetworkSelection</key>
+<true/>
+<key>OIDCProvider</key>
+<string>Okta-OIDC</string>
+<key>OIDCRedirectURI</key>
+<string>https://127.0.0.1/jamfconnect</string>
+<key>OIDCDiscoveryURL</key>
+<string>https://unison-admin.okta.com/.well-known/openid-configuration</string>
+<key>OIDCClientID</key>
+<string>0oayge4vcvLWAc8e72p7</string>
+<key>OIDCROPGID</key>
+<string>0oaygfn4wcFA6wDNR2p7</string>
+<key>OIDCTenant</key>
+<string>https://unison.okta.com/oauth2/default</string>
+<key>OIDCAdminAttribute</key>
+<string>groups</string>
+<key>OIDCAdmin</key>
+<array>
+<string>IT</string>
+<string>app-jamfConnect-Admin</string>
+</array>
+<key>LocalFallback</key>
+<false/>
+<key>DenyLocal</key>
+<true/>
+<key>OIDCUsePassthroughAuth</key>
+<true/>
+<key>CreateJamfConnectPassword</key>
+<true/>
+<key>OIDCNewPassword</key>
+<false/>
+<key>Migrate</key>
+	<true/>
+	<key>MigrateUsersHide</key>
+	<array>
+	<string>unisonmanage</string>
+	<string>unison</string>
+	</array>
+<key>BackgroundImage</key>
+<string>/usr/local/jamfconnect/background.jpg</string>
+<key>LoginLogo</key>
+	<string>/usr/local/jamfconnect/logo.png</string>
+<key>AllowNetworkSelection</key>
+	<true/>
+<key>OIDCSecondaryAccess</key>
+<array>
+<string>IT</string>
+</array>
+</dict> 
+</plist>
