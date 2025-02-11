@@ -2,3 +2,4 @@ com.macjutsu.super.plist assists with MacOS updates. I have added a plist that I
 
 com.apple.applicationaccess defers major OS updates for 14 days so we have time to thoroughly test.
 
+com.tinyspeck.slackmacgap sets default org, sets environment to corporate as opposed to gove and turns off auto updates so updates can be managed. This is critical for users that are not admin as slack prompts for credentials on updates
