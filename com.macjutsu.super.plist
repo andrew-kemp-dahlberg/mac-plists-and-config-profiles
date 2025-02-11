@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+	<dict>
+
+	<key>AuthJamfComputerID</key>
+	<string>$JSSID</string>
+
+	<key>InstallMacOSMajorUpgrades</key>
+	<true/>
+
+	<key>InstallNonSystemUpdatesWithoutRestarting</key>
+	<true/>
+
+	<key>InstallRapidSecurityResponses</key>
+	<true/>
+
+	<key>DeferralTimerDefault</key>
+	<string>60</string>
+
+	<key>DeferralTimerMenu</key>
+	<string>15,30,60,120,180</string>
+
+	<key>DeferralTimerError</key>
+	<string>120</string>
+
+	<key>DeadlineCountSoft</key>
+	<string>5</string>
+
+	<key>DeadlineDaysHard</key>
+	<string>5</string>
+
+	<key>ScheduledInstallUserChoice</key>
+	<true/>
+	
+	<key>DialogTimeoutDefault</key>
+	<string>600</string>
+
+	<key>>DialogTimeoutUserChoice</key>
+	<string>300</string>
+
+	<key>DialogTimeoutSoftDeadline</key>
+	<string>14400</string>
+
+	<key>DialogTimeoutInsufficientStorage</key>
+	<string>86400</string>
+
+	<key>DialogTimeoutPowerRequired</key>
+	<string>1800</string>
+
+	<key>DisplayIconFile</key>
+	<string>redacted2</string>
+
+	<key>DisplayHelpButtonString</key>
+	<string>For assistance please contact IT Support</string>
+
+	</dict>
+</plist>
