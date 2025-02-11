@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Appearance</key>
+	<dict>
+		<key>ShowWelcomeWindow</key>
+		<false/>
+	</dict>
+	<key>CustomMenuItems</key>
+	<dict>
+		<key>connect</key>
+		<string>Okta Dashboard</string>
+		<key>getsoftware</key>
+		<string>Unison Self Service</string>
+	</dict>
+	<key>HiddenMenuItems</key>
+	<array>
+		<string>about</string>
+		<string>actions</string>
+		<string>home</string>
+		<string>preferences</string>
+		<string>resetpassword</string>
+		<string>shares</string>
+		<string>quit</string>
+	</array>
+<key>IdPSettings</key>
+ <dict>
+  <key>DiscoveryURL</key>
+  <string>redacted</string>
+  <key>Provider</key>
+  <string>Okta-OIDC</string>
+  <key>ROPGID</key>
+  <string>redacted</string>
+  <key>TenantID</key>
+  <string>redacted</string>
+<key>ResetPasswordURL</key>
+<string>https://unison.okta.com/signin/change-password</string>
+<key>Scopes</key>
+<string>openid+profile+offline_access</string>
+	</dict>
+	<key>PasswordPolicies</key>
+	<dict>
+		<key>PasswordSyncBlockList</key>
+		<array>
+			<string>redacted</string>
+		</array>
+<key>PasswordChangeWorkflow</key>
+<string>Web</string>
+
+<key>SyncPasswordsMessage</key>
+		<string>Your mac and Okta passwords do not match.</string>
+	</dict>
+	<key>SignIn</key>
+	<dict>
+		<key>AutoAuthenticate</key>
+		<true/>
+		<key>AutoOpenAppAtLogin</key>
+		<true/>
+	</dict>
+	<key>UserHelp</key>
+	<dict>
+		<key>HelpOptions</key>
+		<string>redacted</string>
+		<key>HelpType</key>
+		<string>URL</string>
+		<key>SoftwarePath</key>
+		<string>/Applications/{redacted} Self Service.app</string>
+	</dict>
+<dict>
+
+</dict>
+</dict>
+</plist>
