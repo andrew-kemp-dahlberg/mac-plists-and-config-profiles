@@ -9,7 +9,7 @@
 <key>OIDCRedirectURI</key>
 <string>https://127.0.0.1/jamfconnect</string>
 <key>OIDCDiscoveryURL</key>
-<string>https://unison-admin.okta.com/.well-known/openid-configuration</string>
+<string>redacted</string>
 <key>OIDCClientID</key>
 <string>redacted</string>
 <key>OIDCROPGID</key>
