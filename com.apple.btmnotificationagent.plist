@@ -5,8 +5,6 @@
   <key>NotificationSettings</key>
   <array>
     <dict>
-      <key>BundleIdentifier</key>
-      <string>com.apple.btmnotificationagent</string>
       <key>CriticalAlertEnabled</key>
       <false/>
       <key>NotificationsEnabled</key>
