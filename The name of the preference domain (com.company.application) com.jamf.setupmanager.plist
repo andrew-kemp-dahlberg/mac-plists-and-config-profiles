@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<dict>
+	<key>en</key>
+	<string>Welcome to Unison!</string>
+	</dict>	
+
+	<key>icon</key>
+	<string>https://usw2.ics.services.jamfcloud.com/icon/hash_5f5c8c6bd52ff7dad0e20dca98bee3c2cd3c8b0a46532a705f2d62549a388cce</string>
+
+	<key>message</key>
+	<dict>
+	<key>en</key>
+	<string>Please be patient while we configure your Mac.</string>
+	</dict>
+
+	<key>background</key>
+	<string>https://usw2.ics.services.jamfcloud.com/icon/hash_6b2a6406a100e118ee08416059cb776521e4ee7f118a2c14a16b7df03ff0319a</string>
+
+	<key>enrollmentActions</key>
+	<array>
+
+		<dict>
+			<key>label</key>
+  			<string>Rosetta 2</string>
+ 			<key>icon</key>
+  			<string>https://usw2.ics.services.jamfcloud.com/icon/hash_aebd57c00f75293c55d5a7eef01589d5793ff7a45ec0e5ac149df6d323801ea5</string>
+	  		<key>policy</key>
+	  		<string>installRosetta</string>
+			<key>watchPath</key>
+	  		<string>/Library/Apple/System/Library/Receipts/com.apple.pkg.RosettaUpdateAuto.bom</string>
+	  		<key>wait</key>
+			<integer>300</integer>
+		</dict>
+
+		<dict>
+			<key>label</key>
+  			<string>Jamf Connect</string>
+ 			<key>icon</key>
+  			<string>https://usw2.ics.services.jamfcloud.com/icon/hash_d709eb53f5b0dc98f69b47120df7f8ddd5412f2aaf85ba6b03a10f9eff77e0f7</string>
+  			<key>policy</key>
+  			<string>installJamfConnect</string>
+			<key>watchPath</key>
+	  		<string>/Applications/Jamf Connect.app</string>
+	  		<key>wait</key>
+			<integer>900</integer>
+		</dict>
+
+		<dict>
+			<key>label</key>
+  			<string>Swift Dialog</string>
+ 			<key>icon</key>
+  			<string>https://usw2.ics.services.jamfcloud.com/icon/hash_86c5e63513e668c6292f810789598d8d37dadd620fe08ee1493b8b827928a634</string>
+  			<key>policy</key>
+  			<string>installSwiftDialog</string>
+			<key>watchPath</key>
+	  		<string>/Applications/Jamf Connect.app</string>
+	  		<key>wait</key>
+			<integer>900</integer>
+		</dict>
+
+		<dict>
+			<key>label</key>
+  			<string>DisplayLink Manager</string>
+ 			<key>icon</key>
+  			<string>https://usw2.ics.services.jamfcloud.com/icon/hash_6ff8a24b574f1a65aa7a1635884cf6a1208053973f81981285f498631fba6668</string>
+  			<key>policy</key>
+  			<string>installDisplayLinkManager</string>
+			<key>watchPath</key>
+	  		<string>/Applications/DisplayLink Manager.app</string>
+	  		<key>wait</key>
+			<integer>300</integer>
+		</dict>
+
+		<dict>
+			<key>label</key>
+  			<string>Google Chrome</string>
+ 			<key>icon</key>
+  			<string>https://usw2.ics.services.jamfcloud.com/icon/hash_0e63ffa0db7f18ad411e211ff2503dc840379a117fe71b4c41c6c73891e7f011</string>
+  			<key>policy</key>
+  			<string>installGoogleChromePkg</string>
+			<key>watchPath</key>
+	  		<string>/Applications/Google Chrome.app</string>
+	  		<key>wait</key>
+			<integer>300</integer>
+		</dict>
+
+		<dict>
+			<key>label</key>
+  			<string>Google Drive</string>
+ 			<key>icon</key>
+  			<string>https://usw2.ics.services.jamfcloud.com/icon/hash_8c04999d2f6b432f0a31a5bb23193b30f6a64e364a54421817deba986d632bc2</string>
+  			<key>policy</key>
+  			<string>installGoogleDrive</string>
+			<key>watchPath</key>
+	  		<string>/Applications/Google Drive.app</string>
+	  		<key>wait</key>
+			<integer>300</integer>
+		</dict> 
+                
+        <dict>
+	  		<key>label</key>
+	  		<string>Slack</string>
+	  		<key>icon</key>
+	  		<string>https://usw2.ics.services.jamfcloud.com/icon/hash_fb6a55c5bfebf44ef8ddcda62ac9d09a8a97c039d1aa8e5c72f8659c4ef0df45</string>
+	  		<key>policy</key>
+	  		<string>installSlack</string>
+			<key>watchPath</key>
+	  		<string>/Applications/Slack.app</string>
+	  		<key>wait</key>
+			<integer>300</integer>
+		</dict>
+
+	</array>
+	<key>finalAction</key>
+	<string>continue</string>
+</dict>
+</plist>
