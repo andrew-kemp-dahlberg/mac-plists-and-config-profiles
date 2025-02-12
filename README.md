@@ -8,7 +8,7 @@ com.apple.notificationsettings turns off notifications for users when mdm adds l
 
 Both Jamf Connect plists are settings I have found useful when deploying jamf connect with Okta Identity Engine
 
-Okta profiles are for settings I've found helpful when deploying fastpass. I did not include management attestation profiles as they are easiest to roll out through the MDM GUI. 
+Okta profiles are for settings I've found helpful when deploying fastpass and for the necessary SSO Extension I did not include management attestation profiles as they are easiest to roll out through the MDM GUI. 
 
 
 
