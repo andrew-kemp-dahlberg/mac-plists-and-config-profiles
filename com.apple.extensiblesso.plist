@@ -6,7 +6,7 @@
 	<string>com.okta.mobile.auth-service-extension.</string>
 	<key>Hosts</key>
 	<array>
-		<string>unison.okta.com</string>
+		<string>my_org.okta.com</string>
 	</array>
 	<key>Realm</key>
 	<string>Okta Device</string>
