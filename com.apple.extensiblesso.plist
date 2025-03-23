@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ExtensionIdentifier</key>
+	<string>com.okta.mobile.auth-service-extension.</string>
+	<key>Hosts</key>
+	<array>
+		<string>unison.okta.com</string>
+	</array>
+	<key>Realm</key>
+	<string>Okta Device</string>
+	<key>TeamIdentifier</key>
+	<string>B7F62B65BN</string>
+	<key>Type</key>
+	<string>Credential</string>
+</dict>
+</plist>
