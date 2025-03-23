@@ -6,6 +6,8 @@ com.tinyspeck.slackmacgap sets default org, sets environment to corporate as opp
 
 com.apple.notificationsettings turns off notifications for users when mdm adds login items
 
+com.apple.extensiblesso.plist is for okta fastpass but does not support psso and we use jamf connect
+
 Both Jamf Connect plists are settings I have found useful when deploying jamf connect with Okta Identity Engine
 
 Okta profiles are for settings I've found helpful when deploying fastpass and for the necessary SSO Extension I did not include management attestation profiles as they are easiest to roll out through the MDM GUI. 
